@@ -1,0 +1,17 @@
+@import "includes/reset.scss";
+@import "includes/variables.scss";
+
+.l-html {}
+.l-body {
+	height: calc(100vh);
+	position: relative;
+	background: $bg-default;
+	color: $color-primary;
+	font: 14px/1.3 'Arial', sans-serif; 
+}
+
+@import "includes/blocks/content.scss";
+@import "includes/blocks/list.scss";
+@import "includes/blocks/form.scss";
+@import "includes/blocks/field.scss";
+@import "includes/blocks/button.scss";

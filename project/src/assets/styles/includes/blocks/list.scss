@@ -1,0 +1,20 @@
+.l-list {}
+.b-list {
+
+  &__item {
+    display: block;
+    padding: 5px;
+    
+    &:first-child, &:last-child {
+      color: red;
+    }
+
+    &:nth-child(3n) {
+      background: green;
+    }
+
+    &:nth-child(odd) {
+      border: 2px solid yellow;
+    }
+  }
+}
